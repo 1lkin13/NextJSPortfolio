@@ -49,8 +49,8 @@ export const BentoGridItem = ({
   spareImg?: string;
 }) => {
   const techLists: string[] = [
-    "HTML", "CSS", "SASS", "Bootstrap", "Tailwind CSS", "Material UI", "Jquery", "JavaScript",
-    "React.js", "Typescript", "Next.js", "Git", "Figma","SignalR","React Native","Formik","Clerk"
+    "HTML", "CSS", "Bootstrap", "Tailwind CSS", "Material UI", "Jquery", "JavaScript",
+    "React", "Redux Toolkit", "Typescript", "Next.js", "Git", "Figma","SignalR","React Native","Formik","Clerk"
   ];
   
 
