@@ -3,11 +3,11 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "./provider";
 import Head from "next/head";
-import Logo from "@/public/logo.png"
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "İlkin's Portfolio",
+  title: "1lkin13",
   description: "Modern & Minimalist Frontend Developer Portfolio",
 };
 
@@ -18,17 +18,20 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-       <Head>
-        <link rel="icon" href="/logo.png" />
+      <Head>
+        <link rel="shortcut icon" href="/favicon.png" type="image/png" />
+        <meta name="theme-color" content="#000000" />
       </Head>
-      <body className={inter.className}><ThemeProvider
-            attribute="class"
-            defaultTheme="dark"
-            enableSystem
-            disableTransitionOnChange
-          >
-            {children}
-          </ThemeProvider></body>
+      <body className={inter.className}>
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="dark"
+          enableSystem
+          disableTransitionOnChange
+        >
+          {children}
+        </ThemeProvider>
+      </body>
     </html>
   );
 }

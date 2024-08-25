@@ -1,25 +1,24 @@
 export const navItems = [
     { name: "About", link: "#about" },
     { name: "Projects", link: "#projects" },
-    { name: "Testimonials", link: "#testimonials" },
+    { name: "Playlist", link: "#playlist" },
     { name: "Contact", link: "#contact" },
   ];
   
   export const gridItems = [
     {
       id: 1,
-      title: "I prioritize client collaboration, fostering open communication ",
+      title: "Web development with 2+ years of experience.",
       description: "",
       className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
       imgClassName: "w-full h-full",
       titleClassName: "justify-end",
-      img: "/b1.svg",
+      img: "/a1.png",
       spareImg: "",
     },
     {
       id: 2,
-      title: "I'm very flexible with time zone communications",
-      description: "",
+      title: "For more info, follow me on social media.",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
       titleClassName: "justify-start",
@@ -28,8 +27,8 @@ export const navItems = [
     },
     {
       id: 3,
-      title: "Proqramlaşdırma biliklərim",
-      description: "Özümü davamlı olaraq inkişaf etdirirəm",
+      title: "My programming knowledge",
+      description: "I am constantly developing myself",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
       titleClassName: "justify-center",
@@ -38,8 +37,8 @@ export const navItems = [
     },
     {
       id: 4,
-      title: "Tech enthusiast with a passion for development.",
-      description: "",
+      title: "A coding fanatic who thrives on music.",
+      description: "Check out my Spotify playlists below",
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",
       titleClassName: "justify-start",
@@ -60,7 +59,7 @@ export const navItems = [
     {
       id: 6,
       title: "Do you want to start a project together?",
-      description: "",
+      description: " You can reach me via my email address.",
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",
       titleClassName: "justify-center md:max-w-full max-w-60 text-center",
@@ -72,132 +71,76 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
-      title: "Website for computer sales",
-      des: "E-commerce site with admin panel",
-      img: "/Aorus.png",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: "https://aorus.vercel.app",
-    },
-    {
-      id: 2,
-      title: "Yoom - Video Conferencing App",
-      des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-      img: "/p2.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/zoom-clone",
-    },
-    {
-      id: 3,
-      title: "AI Image SaaS - Canva Application",
-      des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-      img: "/p3.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/ai_saas_app",
-    },
-    {
-      id: 4,
-      title: "Animated Apple Iphone 3D Website",
-      des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-      img: "/p4.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+      title: "Next Js-Portfolio",
+      des: "Portfolio using Next js and Aceternity UI",
+      img: "/portfolio.png",
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/framer-motion.svg"],
       link: "https://github.com/adrianhajdin/iphone",
     },
-  ];
-  
-  export const testimonials = [
-    {
-      quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
-    },
-    {
-      quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
-    },
-    {
-      quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
-    },
-    {
-      quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
-    },
-    {
-      quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
-    },
-  ];
-  
-  export const companies = [
-    {
-      id: 1,
-      name: "cloudinary",
-      img: "/cloud.svg",
-      nameImg: "/cloudName.svg",
-    },
     {
       id: 2,
-      name: "appwrite",
-      img: "/app.svg",
-      nameImg: "/appName.svg",
+      title: "Plantill",
+      des: "Role based real time chat system",
+      img: "/plantill.png",
+      iconLists: ["/vitejs.svg", "/tail.svg", "/jwt.svg", "/redux.svg","/signalr.svg"],
+      link: "https://plantill.vercel.app/",
     },
     {
       id: 3,
-      name: "HOSTINGER",
-      img: "/host.svg",
-      nameImg: "/hostName.svg",
+      title: "TODO",
+      des: "Task Managment Systemm",
+      img: "/todo.png",
+      iconLists: ["/vitejs.svg", "/tail.svg", "/nextui.svg", "/redux.svg", "/jwt.svg"],
+      link: "https://todo-millisoft.vercel.app/",
     },
+    
     {
       id: 4,
-      name: "stream",
-      img: "/s.svg",
-      nameImg: "/streamName.svg",
-    },
-    {
-      id: 5,
-      name: "docker.",
-      img: "/dock.svg",
-      nameImg: "/dockerName.svg",
-    },
+      title: "Aorus",
+      des: "E-commerce site with admin panel",
+      img: "/Aorus.png",
+      iconLists: ["/vitejs.svg", "/tail.svg","/json.svg"],
+      link: "https://aorus.vercel.app/",
+    }
   ];
   
+  export const playlist = [
+    {
+      image: "/spotify1.png", 
+      name: "New day new code",
+      link: "https://open.spotify.com/playlist/7eroyhdc5Hr0Df5Onqe7YP?si=fe61e3cdf6954474",
+    },
+    {
+      image: "/spotify2.png",
+      name: "Mixed feelings",
+      link: "https://open.spotify.com/playlist/0dJpcsw2P4sDqelevvPACG?si=7cd281b8ec3e4101",
+    },
+    {
+      image: "/spotify3.jpg",
+      name: "A little peace",
+      link: "https://open.spotify.com/playlist/1tWkvhuHDayhouRdScOpQ2?si=77cad6950d7e44fe",
+    },
+  
+  ];
+
   export const workExperience = [
     {
       id: 1,
-      title: "Frontend Engineer Intern",
-      desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+      title: "Full Stack Developer",
+      desc: "Full stack developer at Project Aurora Startup at ASOIU University",
       className: "md:col-span-2",
       thumbnail: "/exp1.svg",
+      time:"2022-2023 (3 months)"
     },
+  
     {
       id: 2,
-      title: "Mobile App Dev - JSM Tech",
-      desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-      className: "md:col-span-2", // change to md:col-span-2
-      thumbnail: "/exp2.svg",
-    },
-    {
-      id: 3,
-      title: "Freelance App Dev Project",
-      desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-      className: "md:col-span-2", // change to md:col-span-2
-      thumbnail: "/exp3.svg",
-    },
-    {
-      id: 4,
-      title: "Lead Frontend Developer",
-      desc: "Developed and maintained user-facing features using modern frontend technologies.",
+      title: "Frontend Developer",
+      desc: "I made projects using modern UI library and frontend library at MilliSoft company",
       className: "md:col-span-2",
       thumbnail: "/exp4.svg",
+      time:"2024-Present"
+
     },
   ];
   
@@ -205,13 +148,17 @@ export const navItems = [
     {
       id: 1,
       img: "/git.svg",
+      link:"https://github.com/1lkin13"
     },
     {
       id: 2,
-      img: "/twit.svg",
+      img: "/insta.svg",
+     link:" https://www.instagram.com/1lkin13/"
     },
     {
       id: 3,
       img: "/link.svg",
+     link:"https://www.linkedin.com/in/ilkin-emiraslanov-59b401223/?originalSubdomain=az"
+
     },
   ];

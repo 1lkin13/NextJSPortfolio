@@ -2,21 +2,22 @@
 import { cn } from "@/lib/utils";
 import { useEffect, useRef, useState } from "react";
 
-export const BackgroundGradientAnimation = ({
-  gradientBackgroundStart = "rgb(108, 0, 162)",
-  gradientBackgroundEnd = "rgb(0, 17, 82)",
-  firstColor = "18, 113, 255",
-  secondColor = "221, 74, 255",
-  thirdColor = "100, 220, 255",
-  fourthColor = "200, 50, 50",
-  fifthColor = "180, 180, 50",
-  pointerColor = "140, 100, 255",
-  size = "80%",
-  blendingValue = "hard-light",
-  children,
-  className,
-  interactive = true,
-  containerClassName,
+
+  export const BackgroundGradientAnimation = ({
+    gradientBackgroundStart = "#379237", // Mor başlangıç rengi
+    gradientBackgroundEnd = "rgb(0, 17, 82)", // Koyu mor bitiş rengi
+    firstColor = "162, 255, 134", // Hafif yeşil dokunuş
+  secondColor = "221, 74, 255", // Mor tonu
+  thirdColor = "100, 220, 255", // Açık mavi
+  fourthColor = "rgb(130, 205, 71)", // Kırmızı
+  fifthColor = "180, 180, 50", // Sarı
+  pointerColor = "140, 100, 255", // Mor
+    size = "80%",
+    blendingValue = "hard-light",
+    children,
+    className,
+    interactive = true,
+    containerClassName,
 }: {
   gradientBackgroundStart?: string;
   gradientBackgroundEnd?: string;

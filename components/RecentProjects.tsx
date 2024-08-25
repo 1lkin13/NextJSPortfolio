@@ -9,8 +9,8 @@ const RecentProjects = () => {
   return (
     <div className="py-20">
       <h1 className="heading">
-        A small selection of{" "}
-        <span className="text-purple">recent projects</span>
+       Some of my{" "}
+        <span className="text-green">recent projects</span>
       </h1>
       <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
         {projects.map((item) => (
@@ -24,17 +24,12 @@ const RecentProjects = () => {
              
               href={item.link}
             >
-              <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
-                <div
-                  className="relative w-full h-full overflow-hidden lg:rounded-3xl"
-                  style={{ backgroundColor: "#13162D" }}
-                >
-                  <img src="/bg.png" alt="bgimg" />
-                </div>
+              <div className="relative  rounded-md flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
+             
                 <img
                   src={item.img}
                   alt="cover"
-                  className="z-10 absolute bottom-0"
+                  className="z-10 absolute bottom-0 object-fit"
                 />
               </div>
 
@@ -43,9 +38,9 @@ const RecentProjects = () => {
               </h1>
 
               <p
-                className="lg:text-xl lg:font-normal font-light text-sm line-clamp-2"
+                className="lg:text-xl lg:font-normal text-green font-light text-sm line-clamp-2"
                 style={{
-                  color: "#BEC1DD",
+                  // color: "#A1EEBD",
                   margin: "1vh 0",
                 }}
               >
@@ -69,10 +64,10 @@ const RecentProjects = () => {
  <Link href={item.link} target="blank">
                 <div className="flex justify-center items-center">
                  
-                  <p className="flex lg:text-xl md:text-xs text-sm text-purple">
+                  <p className="flex lg:text-xl md:text-xs text-sm text-[#2fbd42]">
                     Check Live Site
                   </p>
-                  <FaLocationArrow className="ms-3" color="#CBACF9" />
+                  <FaLocationArrow className="ms-3" />
                  
                 </div> </Link>
               </div>
