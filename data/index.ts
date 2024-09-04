@@ -76,24 +76,25 @@ export const navItems = [
       img: "/portfolio.png",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/framer-motion.svg"],
       link: "https://github.com/adrianhajdin/iphone",
+
     },
     {
       id: 2,
+      title: "Expert",
+      des: "Social Community App",
+      img: "/expert.png",
+      iconLists: ["/next.svg", "/ts.svg", "/tail.svg", "/mongo.png", "/upload.png"],
+      link: "https://todo-millisoft.vercel.app/",
+    },
+    {
+      id: 3,
       title: "Plantill",
       des: "Role based real time chat system",
       img: "/plantill.png",
       iconLists: ["/vitejs.svg", "/tail.svg", "/jwt.svg", "/redux.svg","/signalr.svg"],
       link: "https://plantill.vercel.app/",
     },
-    {
-      id: 3,
-      title: "TODO",
-      des: "Task Managment Systemm",
-      img: "/todo.png",
-      iconLists: ["/vitejs.svg", "/tail.svg", "/nextui.svg", "/redux.svg", "/jwt.svg"],
-      link: "https://todo-millisoft.vercel.app/",
-    },
-    
+
     {
       id: 4,
       title: "Aorus",
