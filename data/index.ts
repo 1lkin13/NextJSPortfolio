@@ -83,8 +83,8 @@ export const navItems = [
       title: "Expert",
       des: "Social Community App",
       img: "/expert.png",
-      iconLists: ["/next.svg", "/ts.svg", "/tail.svg", "/mongo.png", "/upload.png"],
-      link: "https://todo-millisoft.vercel.app/",
+      iconLists: ["/next.svg", "/ts.svg", "/clerk.png", "/mongo.png", "/upload.png"],
+      link: "https://expert-app.vercel.app/",
     },
     {
       id: 3,
