@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "./provider";
 import Head from "next/head";
+import favicon from "./favicon.ico"
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,7 +20,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Head>
-        <link rel="shortcut icon" href="/favicon.png" type="image/png" />
         <meta name="theme-color" content="#000000" />
       </Head>
       <body className={inter.className}>
