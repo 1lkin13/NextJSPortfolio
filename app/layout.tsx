@@ -8,7 +8,7 @@ import favicon from "./favicon.ico"
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "1lkin13",
+  title: "Ilkin-Frontend developer",
   description: "Modern & Minimalist Frontend Developer Portfolio",
 };
 
