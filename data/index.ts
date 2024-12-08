@@ -72,14 +72,22 @@ export const navItems = [
     {
       id: 1,
       title: "Next Js-Portfolio",
-      des: "Portfolio using Next js and Aceternity UI",
+      des: "Portfolio site powered by Next js and Aceternity UI",
       img: "/portfolio.png",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/framer-motion.svg"],
-      link: "https://github.com/adrianhajdin/iphone",
+      link: "https://ilkin.vercel.app/",
 
     },
     {
       id: 2,
+      title: "Zero",
+      des: "Blog site for developers",
+      img: "/Zero.png",
+      iconLists: ["/next.svg",  "/ts.svg","/tail.svg","/sanity.svg" ,"/sentry.svg"],
+      link: "https://zero-hub.vercel.app/",
+    },
+    {
+      id: 3,
       title: "Expert",
       des: "Social Community App",
       img: "/expert.png",
@@ -87,7 +95,7 @@ export const navItems = [
       link: "https://expert-app.vercel.app/",
     },
     {
-      id: 3,
+      id: 4,
       title: "Plantill",
       des: "Role based real time chat system",
       img: "/plantill.png",
@@ -96,13 +104,14 @@ export const navItems = [
     },
 
     {
-      id: 4,
+      id: 5,
       title: "Aorus",
       des: "E-commerce site with admin panel",
       img: "/Aorus.png",
       iconLists: ["/vitejs.svg", "/tail.svg","/json.svg"],
       link: "https://aorus.vercel.app/",
-    }
+    },
+  
   ];
   
   export const playlist = [
