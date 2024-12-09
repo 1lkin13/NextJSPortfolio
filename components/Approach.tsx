@@ -26,7 +26,7 @@ const Approach = () => {
         </Card>
         <Card
           title="Full-Stack Web Development"
-          imageSrc="/nan.jpg"  
+          imageSrc="/nan.png"  
           des="In 2022-2023, I studied full stack development at the NaNTech course, during which I gained extensive knowledge and experience in both front-end and back-end development."
         >
           <CanvasRevealEffect
