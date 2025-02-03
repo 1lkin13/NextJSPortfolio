@@ -1,6 +1,6 @@
-'use client'; 
+'use client'; // Ensures this component is only rendered on the client side
 
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 
 const CVButton = ({
   title,
@@ -12,16 +12,24 @@ const CVButton = ({
   title: string;
   icon: React.ReactNode;
   position: string;
-  downloadUrl: string; 
+  downloadUrl: string;
   otherClasses?: string;
 }) => {
+  const [isClient, setIsClient] = useState(false);
+
+  useEffect(() => {
+    setIsClient(true); // Set isClient to true when the component mounts (client-side)
+  }, []);
+
   const handleDownload = () => {
-    const link = document.createElement('a');
-    link.href = downloadUrl;
-    link.download = 'İlkin Emiraslanov-Resume'; 
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+    if (isClient) { // Ensure this code only runs on the client side
+      const link = document.createElement('a');
+      link.href = downloadUrl;
+      link.download = 'İlkin Emiraslanov-Resume';
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    }
   };
 
   return (
@@ -34,7 +42,7 @@ const CVButton = ({
       </span>
       <div className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full
              bg-slate-950 px-7 text-sm font-medium text-white backdrop-blur-3xl gap-2 ">
-      {position === "left" && icon}
+        {position === "left" && icon}
         {title}
         {position === "right" && icon}
       </div>
