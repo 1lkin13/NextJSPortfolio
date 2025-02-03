@@ -1,7 +1,10 @@
 import {withSentryConfig} from '@sentry/nextjs';
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
-
+const nextConfig = {
+    experimental: {
+      missingSuspenseWithCSRBailout: false,
+    },
+  };
 export default withSentryConfig(nextConfig, {
 
 
